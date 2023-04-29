@@ -1,0 +1,21 @@
+import: 
+  - deploy/roots-bedrock.php
+
+config:
+  repository: 'git@github.com:jaybeckr/mw.git'
+  shared_files: ['.env']
+  shared_dirs: ['web/app/uploads']
+  writeable_dirs: ['web/app/uploads']
+
+hosts:
+  markweeda.com:
+    remote_user: jaybeckr
+    hostname: 45.79.42.129
+    deploy_path: '/var/www/markweeda'
+
+tasks:
+  build:
+    - run: uptime  
+
+after:
+  deploy:failed: deploy:unlock
