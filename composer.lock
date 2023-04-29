@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c92e7eaefebfc614fb8d2e092499fa1c",
+    "content-hash": "38e4ec3cbdf7c585898d2db64cb455e0",
     "packages": [
         {
             "name": "composer/installers",
@@ -212,6 +212,25 @@
                 }
             ],
             "time": "2022-07-30T15:56:11+00:00"
+        },
+        {
+            "name": "hipdevteam/elementor-pro",
+            "version": "3.12.3",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:hipdevteam/elementor-pro.git",
+                "reference": "0cb0efe9c53beb71449548541bf7d5b297e55ffa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/hipdevteam%2Felementor-pro/repository/archive.zip?sha=0cb0efe9c53beb71449548541bf7d5b297e55ffa",
+                "reference": "0cb0efe9c53beb71449548541bf7d5b297e55ffa",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Fork of Elementor Pro for use with composer",
+            "time": "2023-04-27T21:50:32+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -1093,6 +1112,60 @@
                 }
             ],
             "time": "2022-10-16T01:01:54+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/elementor",
+            "version": "3.12.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/elementor/",
+                "reference": "tags/3.12.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/elementor.3.12.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/under-construction-page",
+            "version": "3.97",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/under-construction-page/",
+                "reference": "tags/3.97"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/under-construction-page.3.97.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/under-construction-page/"
+        },
+        {
+            "name": "wpackagist-plugin/wpforms-lite",
+            "version": "1.8.1.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wpforms-lite/",
+                "reference": "tags/1.8.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wpforms-lite.1.8.1.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wpforms-lite/"
         },
         {
             "name": "wpackagist-theme/twentytwentythree",

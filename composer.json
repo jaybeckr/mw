@@ -40,7 +40,11 @@
     "roots/wordpress": "6.2",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.1.0",
-    "wpackagist-theme/twentytwentythree": "^1.0"
+    "wpackagist-theme/twentytwentythree": "^1.0",
+    "wpackagist-plugin/under-construction-page": "^3.97",
+    "wpackagist-plugin/elementor": "^3.12",
+    "hipdevteam/elementor-pro": "^3.12",
+    "wpackagist-plugin/wpforms-lite": "1.8.1.2"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
