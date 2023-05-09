@@ -25,6 +25,9 @@ web/.htaccess
 
 # non-Composer managed packages
 !web/app/plugins/elementor-pro/
+!web/app/plugins/ultimate-addons-for-gutenberg/
+!web/app/plugins/astra-pro-sites/
+
 
 # WP-CLI
 wp-cli.local.yml
