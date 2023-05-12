@@ -27,6 +27,7 @@ web/.htaccess
 !web/app/plugins/elementor-pro/
 !web/app/plugins/ultimate-addons-for-gutenberg/
 !web/app/plugins/astra-pro-sites/
+!web/app/plugins/astra-addon/
 
 
 # WP-CLI
