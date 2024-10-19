@@ -44,7 +44,8 @@
     "wpackagist-plugin/under-construction-page": "^3.97",
     "wpackagist-plugin/elementor": "^3.12",
     "hipdevteam/elementor-pro": "^3.12",
-    "wpackagist-plugin/wpforms-lite": "1.8.1.2"
+    "wpackagist-plugin/wpforms-lite": "1.8.1.2",
+    "wpackagist-plugin/all-in-one-wp-migration": "^7.87"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
